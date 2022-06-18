@@ -49,10 +49,10 @@ def predict():
 
 
 if __name__=='__main__':
-    encoderSymptom_1=joblib.load('encoderSymptom_1').classes_
-    encoderSymptom_2=joblib.load('encoderSymptom_2').classes_
-    encoderSymptom_3=joblib.load('encoderSymptom_3').classes_
-    encoderSymptom_4=joblib.load('encoderSymptom_4').classes_
+    encoderSymptom_1=joblib.load('./encoderSymptom_1').classes_
+    encoderSymptom_2=joblib.load('./encoderSymptom_2').classes_
+    encoderSymptom_3=joblib.load('./encoderSymptom_3').classes_
+    encoderSymptom_4=joblib.load('./encoderSymptom_4').classes_
     encoderSymptom_1=trim(encoderSymptom_1)
     encoderSymptom_2=trim(encoderSymptom_2)
     encoderSymptom_3=trim(encoderSymptom_3)

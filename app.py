@@ -58,8 +58,8 @@ if __name__=='__main__':
     encoderSymptom_3=trim(encoderSymptom_3)
     encoderSymptom_4=trim(encoderSymptom_4)
 
-    disease_encoder=joblib.load('encoder_disease')
-    model=joblib.load('model_v2')
+    disease_encoder=joblib.load('./encoder_disease')
+    model=joblib.load('./model_v2')
 
     app.run(debug=True,port=80)
 
